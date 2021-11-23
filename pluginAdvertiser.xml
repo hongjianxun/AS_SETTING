@@ -83,6 +83,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.arb">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.localizely.flutter-intl" />
+              <option name="myPluginName" value="Flutter Intl" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.asm">
           <value>
             <plugin>
