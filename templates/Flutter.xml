@@ -5,11 +5,15 @@
     <variable name="title" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="&quot;dialogBody&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="buttonText" expression="&quot;buttonText&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
   </template>
   <template name="txt" value="TextButton.icon(&#10; onPressed: () {&#10; print(&quot;TextButton.icon&quot;);&#10; },&#10; icon: Icon(Icons.local_florist),&#10; label: Text(&quot;TextButton.icon&quot;))," description="Create TextButton.icon Widget" toReformat="true" toShortenFQNames="true">
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
   </template>
   <template name="page" value="import 'package:flutter/material.dart';&#10;&#10;class $CLASS_NAME$ extends StatefulWidget {&#10;  @override&#10;  State&lt;StatefulWidget&gt; createState() {&#10;    return _$CLASS_NAME$State();&#10;  }&#10;}&#10;&#10;class _$CLASS_NAME$State extends State&lt;$CLASS_NAME$&gt; {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;        return Scaffold(&#10;      appBar: AppBar(&#10;        title: Text(&quot;$CLASS_NAME$&quot;),&#10;      ),&#10;      body:Center(&#10;        child: Text(&quot;$CLASS_NAME$&quot;),&#10;      ),&#10;    );&#10;  }&#10;}" description="Create page without MaterialApp" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
