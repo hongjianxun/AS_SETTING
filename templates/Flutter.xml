@@ -11,22 +11,4 @@
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="page" value="import 'package:flutter/material.dart';&#10;&#10;class $CLASS_NAME$ extends StatefulWidget {&#10;  @override&#10;  State&lt;StatefulWidget&gt; createState() {&#10;    return _$CLASS_NAME$State();&#10;  }&#10;}&#10;&#10;class _$CLASS_NAME$State extends State&lt;$CLASS_NAME$&gt; {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;        return Scaffold(&#10;      appBar: AppBar(&#10;        title: Text(&quot;$CLASS_NAME$&quot;),&#10;      ),&#10;      body:Center(&#10;        child: Text(&quot;$CLASS_NAME$&quot;),&#10;      ),&#10;    );&#10;  }&#10;}" description="Create page without MaterialApp" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="stl" value="class $NAME$ extends StatefulWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container($END$);&#10;  }&#10;}&#10;" description="Create StatefulWidget Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="stf" value="class $NAME$ extends StatelessWidget {&#10;  @override&#10;  _$NAME$State createState() =&gt; _$NAME$State();&#10;}&#10;&#10;class _$NAME$State extends State&lt;$NAME$&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container($END$);&#10;  }&#10;}&#10;&#10;" description="Create StatelessWidget Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="btn_falt" value="FlatButton(&#10;onPressed: () {&#10;  print(&quot;FlatButton&quot;);&#10; },&#10;  child: Text(&quot;FlatButton&quot;)),&#10;" description="Create FlatButton Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
-  </template>
-  <template name="btn_falt_icon" value="FlatButton.icon(&#10; onPressed: () {&#10; print(&quot;FlatButton.icon&quot;);&#10; },&#10; icon: Icon(Icons.add),&#10; label: Text(&quot;FlatButton icon&quot;)),&#10;" description="Create FlatButton.icon Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
-  </template>
 </templateSet>
