@@ -11,4 +11,7 @@
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="dis" value="@override&#10;void dispose() { &#10;  // Add code before the super&#10;  super.dispose();&#10;}" description="Add dispose Override" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
