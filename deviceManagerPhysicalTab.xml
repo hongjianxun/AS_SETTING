@@ -23,6 +23,17 @@
         <target value="Android 12.0" />
         <api value="31" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-bf5dfe5b-IDUyvl._adb-tls-connect._tcp." />
+          </Key>
+        </key>
+        <name value="Xiaomi M2102K1AC" />
+        <target value="Android 12.0" />
+        <api value="31" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
