@@ -10,7 +10,7 @@
         </key>
         <name value="HUAWEI STF-AL00" />
         <target value="Android 9.0" />
-        <api value="28" />
+        <api value="androidversion:28:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -21,7 +21,7 @@
         </key>
         <name value="Xiaomi M2102K1AC" />
         <target value="Android 12.0" />
-        <api value="31" />
+        <api value="androidversion:31:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -32,7 +32,18 @@
         </key>
         <name value="Xiaomi M2102K1AC" />
         <target value="Android 12.0" />
-        <api value="31" />
+        <api value="androidversion:31:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="0123456789ABCDEF" />
+          </Key>
+        </key>
+        <name value="PRECHIP PT1801" />
+        <target value="Android 9.0" />
+        <api value="androidversion:28:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
