@@ -1,8 +1,8 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="pid-4558" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="pid-4558" />
         <option value="fvision" />
         <option value="package:mine" />
