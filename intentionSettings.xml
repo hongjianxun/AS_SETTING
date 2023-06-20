@@ -1,5 +1,25 @@
 <application>
   <component name="IntentionManagerSettings">
-    <ignoreAction name="Dart/Quick assists powered by the Dart Analysis Server" />
+    <ignoreAction name="C and C++/Remove suppression" />
+    <ignoreAction name="C and C++/Remove unnecessary parentheses" />
+    <ignoreAction name="C and C++/Send to Cling" />
+    <ignoreAction name="C and C++/Control flow/Add braces to '' statement" />
+    <ignoreAction name="C and C++/Control flow/Create missing switch cases" />
+    <ignoreAction name="C and C++/Control flow/Extract 'if'" />
+    <ignoreAction name="C and C++/Control flow/Invert 'if' condition" />
+    <ignoreAction name="C and C++/Control flow/Merge 'if else'" />
+    <ignoreAction name="C and C++/Control flow/Merge nested 'if's" />
+    <ignoreAction name="C and C++/Control flow/Remove braces from '' statement" />
+    <ignoreAction name="C and C++/Control flow/Replace '?:' with 'if else'" />
+    <ignoreAction name="C and C++/Control flow/Replace 'if else' with '?:'" />
+    <ignoreAction name="C and C++/Declarations/Introduce typedef" />
+    <ignoreAction name="C and C++/Declarations/Split function into declaration and definition" />
+    <ignoreAction name="C and C++/Declarations/Split into declaration and assignment" />
+    <ignoreAction name="C and C++/Declarations/Split into separate declarations" />
+    <ignoreAction name="C and C++/Definitions/Add  as a parameter to the constructor" />
+    <ignoreAction name="C and C++/Definitions/Generate definitions" />
+    <ignoreAction name="C and C++/Definitions/Replace the type with 'auto'" />
+    <ignoreAction name="C and C++/Operators/DeMorgan law" />
+    <ignoreAction name="C and C++/Operators/Flip binary operation" />
   </component>
 </application>
