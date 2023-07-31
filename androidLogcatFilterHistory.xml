@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="EZPlayer" />
     <option name="nonFavorites">
       <list>
+        <option value="EZPlayer" />
         <option value="MainActivity" />
         <option value="EZOpenSDK" />
         <option value="package:mine " />
